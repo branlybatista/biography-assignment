@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Marcellus&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #B99D7E;
+}
+
+h1 {
+  color: blue;
+  font-family: 'Marcellus', serif;
+  font-size: 40px;
+  margin: 15px 0 0;
+}
+
+h2 {
+  color: blue;
+  font-size: 20px;
+  margin: 0px;
+}
+
+h3 {
+  color: red;
+}
+h4{color:white;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("https://assets.codepen.io/5660114/images.jpeg");
+  height: 75vh;
+  with: 
+  background-repeat: no-repeat;
+  position: relative
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+}
+
+.logo {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+}
+.quote{
+  background-color:black;
+  padding: 10px;
+  margin: 10px;
+
+}
+.bio {
+  background-color: #333;
+  padding: 10px 35px;
+  display: flex;
+  justify-content: center;
+ }
+
+.bio-text {
+  width: 65%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+ button {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  background: #E5CCA6;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  margin: 20px auto;
+}
+
+.info cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.card-section {
+  display: flex;
+}
+
+.card {
+  margin: 15px;
+}
+
+.card img {
+  width: 250px;
+  height:500px;
+  object-fit: cover;
+} 
+
+
+
+
+
