@@ -1,28 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Marcellus&display=swap');
 
 body {
-  font-family: 'Lato', sans-serif;
+ font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #B99D7E;
 }
 
 h1 {
-  color: blue;
-  font-family: 'Marcellus', serif;
+  color: white;
+  font-family: 'Lobster', cursive;
   font-size: 40px;
   margin: 15px 0 0;
 }
 
 h2 {
-  color: blue;
+  color: white;
   font-size: 20px;
   margin: 0px;
 }
 
 h3 {
-  color: red;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
 }
-h4{color:white;
+h4{
+ text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+  font-size:30px;
+  margin:0;
+}
+p{ color:white;
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 .container {
@@ -32,15 +43,17 @@ h4{color:white;
 
 header {
   background-image: url("https://assets.codepen.io/5660114/images.jpeg");
-  height: 75vh;
-  with: 
+ height: 75vh;
   background-repeat: no-repeat;
-  position: relative
+  position: relative;
+  background-size:180vh;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
+  background-color:black;
+  align-items:center;
 }
 
 
@@ -54,6 +67,7 @@ nav li a {
   text-decoration: none;
   color: white;
   padding: 10px;
+  
 
 }
 
@@ -65,7 +79,9 @@ nav li a {
 .quote{
   background-color:black;
   padding: 10px;
-  margin: 10px;
+  margin: 0px;
+  
+  
 
 }
 .bio {
@@ -79,27 +95,33 @@ nav li a {
   width: 65%;
   text-align: left;
   margin-left: 20px;
+  
 }
 
- button {
+ button{
   padding: 10px 15px;
   border-radius: 25px;
   border: none;
-  background: #E5CCA6;
-  color: #fff;
+  background: blue;
+  color: white;
   text-transform: uppercase;
   display: block;
   margin: 20px auto;
+}
+button:hover {
+  color:white;
 }
 
 .info cards{
   display: flex;
   justify-content: center;
   margin-top: 25px;
+  
 }
 
 .card-section {
   display: flex;
+  background-color:#d3d3d3;
 }
 
 .card {
@@ -110,4 +132,11 @@ nav li a {
   width: 250px;
   height:500px;
   object-fit: cover;
+} 
+
+.footer {
+  background: black;
+  padding: 50px;
 }
+
+
